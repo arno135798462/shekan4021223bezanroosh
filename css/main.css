@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face{
   font-family: iransans;
-  src: url('../fonts/IRANSansWeb(FaNum).ttf');
+  src: url('../fonts/IRANSansWeb%28FaNum%29.ttf');
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -3296,7 +3296,7 @@ table {
   width: 100%;
   height: 100%;
   top: 0;
-  background-image: url("../img/about-bg-shape.svg");
+  background-image: url("../images/about-bg-shape.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -3350,8 +3350,8 @@ table {
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../webfonts/fa-regular-400.eot");
-  src: url("../webfonts/fa-regular-400d41d.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
+  src: url("../fonts/fa-regular-400.eot");
+  src: url("../fonts/fa-regular-400d41d.eot#iefix") format("embedded-opentype"), url("../fonts/fa-regular-400.woff2") format("woff2"), url("../fonts/fa-regular-400.woff") format("woff"), url("../fonts/fa-regular-400.ttf") format("truetype"), url("../images/fa-regular-400.svg#fontawesome") format("svg");
 }
 
 /* line 20, node_modules/@fortawesome/fontawesome-free/scss/regular.scss */
@@ -3369,8 +3369,8 @@ table {
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../webfonts/fa-solid-900.eot");
-  src: url("../webfonts/fa-solid-900d41d.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
+  src: url("../fonts/fa-solid-900.eot");
+  src: url("../fonts/fa-solid-900d41d.eot#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.woff2") format("woff2"), url("../fonts/fa-solid-900.woff") format("woff"), url("../fonts/fa-solid-900.ttf") format("truetype"), url("../images/fa-solid-900.svg#fontawesome") format("svg");
 }
 
 /* line 20, node_modules/@fortawesome/fontawesome-free/scss/solid.scss */
@@ -3389,8 +3389,8 @@ table {
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../webfonts/fa-brands-400.eot");
-  src: url("../webfonts/fa-brands-400d41d.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
+  src: url("../fonts/fa-brands-400.eot");
+  src: url("../fonts/fa-brands-400d41d.eot#iefix") format("embedded-opentype"), url("../fonts/fa-brands-400.woff2") format("woff2"), url("../fonts/fa-brands-400.woff") format("woff"), url("../fonts/fa-brands-400.ttf") format("truetype"), url("../images/fa-brands-400.svg#fontawesome") format("svg");
 }
 
 /* line 20, node_modules/@fortawesome/fontawesome-free/scss/brands.scss */
@@ -10886,7 +10886,7 @@ readers do not read off random characters that represent icons */
 @font-face {
   font-family: 'themify';
   src: url("../fonts/themify.eot");
-  src: url("../fonts/themifyd41d.eot?#iefix") format("embedded-opentype"), url("../fonts/themify.woff") format("woff"), url("../fonts/themify.ttf") format("truetype"), url("../fonts/themify.html") format("svg");
+  src: url("../fonts/themifyd41d.eot#iefix") format("embedded-opentype"), url("../fonts/themify.woff") format("woff"), url("../fonts/themify.ttf") format("truetype"), url("../themify.html") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -13394,7 +13394,7 @@ img.mfp-img {
   top: 50%;
   margin-right: -40px;
   margin-top: -40px;
-  background: url(owl.video.play.html) no-repeat;
+  background: url(../owl.video.play.html) no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
@@ -22415,7 +22415,7 @@ footer a {
 .hero-bg-shape:before {
   position: absolute;
   content: '';
-  background: url("../img/hero-bg-shape-1.jpg") no-repeat center bottom/cover;
+  background: url("../images/hero-bg-shape-1.jpg") no-repeat center bottom/cover;
   width: 100%;
   height: 100%;
   top: 0;
@@ -23085,8 +23085,8 @@ footer a {
 
 /* line 66, src/assets/scss/components/call-to-action-section/_video-promo.scss */
 .mask-image {
-  -webkit-mask-image: url("../img/Capture.PNG");
-  mask-image: url("../img/Capture.PNG");
+  -webkit-mask-image: url("../images/Capture.PNG");
+  mask-image: url("../images/Capture.PNG");
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
@@ -23101,8 +23101,8 @@ footer a {
 
 /* line 79, src/assets/scss/components/call-to-action-section/_video-promo.scss */
 .shape-mask {
-  -webkit-mask-image: url("../img/image-mask-shape.svg");
-  mask-image: url("../img/image-mask-shape.svg");
+  -webkit-mask-image: url("../images/image-mask-shape.svg");
+  mask-image: url("../images/image-mask-shape.svg");
   -webkit-mask-size: contain;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
@@ -23182,7 +23182,7 @@ footer a {
 
 /* line 4, src/assets/scss/components/sereenshots-section/_screenshots-1.scss */
 .screenshot-wrap .screenshot-frame {
-  background-image: url("../img/iphone-mask.png");
+  background-image: url("../images/iphone-mask.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: block;
